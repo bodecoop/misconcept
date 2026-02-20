@@ -1,0 +1,1804 @@
+00:00 Thank
+00:28 you.
+00:30 Thank
+00:58 you.
+01:00 Thank
+01:28 you.
+01:30 .
+02:00 .
+02:30 .
+03:00 .
+03:31 All right.
+03:33 Good morning,
+03:34 Stats 250.
+03:37 Oh, that is not a rhetorical
+good morning.
+03:39 Good morning,
+03:40 Stats 250.
+03:41 Thank you.
+Good morning.
+03:43 Welcome.
+03:44 My name is Professor John Keene.
+03:47 You can call me Professor Keene,
+Dr.
+03:48 Keene.
+You can call me John if you
+03:50 prefer.
+03:51 And I'm excited to be your
+instructor for introduction to
+03:54 data science or, excuse me, data
+analysis and statistics this
+03:58 term.
+Before we get started I want to
+04:00 ask a question by quick raise of
+hands.
+04:03 I realize some people are still
+getting settled but for those of
+04:05 you who have found a seat how
+many people know the names of
+04:09 everyone sitting around them?
+04:12 Well that's like a 0% success
+rate so I'd like to try and
+04:16 address that.
+04:17 If you can I'd like you to turn
+to at least two strangers.
+04:23 Introduce yourself by name and
+discuss your answers to the
+04:26 following questions.
+04:28 First, where are you from?
+04:29 Second, what was the highlight
+of your winter break?
+04:32 Third,
+04:33 why are you here? Taking stats
+250.
+04:36 Fourth,
+04:37 how might you use statistics in
+the future?
+04:39 And fifth,
+04:40 maybe just to make this a little
+bit less cringey.
+04:47 What is the photo on your
+phone's lock screen and why?
+04:53 We'll come back together in
+about six minutes time.
+04:55 Go for it.
+05:22 Thank
+05:51 you.
+06:19 Thank you.
+06:22 Thank
+06:51 you.
+06:52 Thank
+07:21 you.
+07:43 Thank you very
+07:46 much.
+07:59 All right, folks.
+08:02 I know that is a quick
+turnaround, but if you can
+08:05 slowly close out those
+introductory conversations and
+08:09 bring your focus back up to the
+front of the room, I want to
+08:11 outline how we are going to be
+spending our time for the rest
+08:16 of our class period this
+morning.
+08:17 We only have three things to
+tackle between now and when we
+08:22 leave out of here this morning.
+08:24 I want to take some time to
+briefly highlight parts of the
+08:28 syllabus that I sent to you
+earlier this term.
+08:31 I then want to briefly talk
+about a key decision
+08:35 I want every student to make
+between now and basically the
+08:39 end of the month about the
+lecture formatting approach that
+08:43 they'll choose to make over the
+course of the semester.
+08:45 And then I wanna spend the
+remainder of our class period
+08:48 actually diving into some
+content.
+08:51 Talking through lecture one and
+introducing basically four key
+08:55 pieces of terminology that we'll
+be using every other time that
+08:59 we meet together as a class.
+09:01 To dive into it, I wanna first
+highlight that I'm actually one
+09:05 of four different professors who
+work on this course.
+09:09 My colleague,
+09:10 Dr.
+Alicia Romero, teaches the
+09:12 Monday-Wednesday sections of
+Stats 250.
+09:15 Again, if you just walked in or
+didn't catch it at the beginning
+09:18 of class,
+09:19 I teach the Tuesday-Thursday
+lectures for Stats 250.
+09:24 To offer you a little bit about
+me, I play a lot of volleyball.
+09:28 I am an aspiring but bad piano
+player.
+09:32 And if you catch me around
+campus and don't wanna talk
+09:35 about your statistics homework,
+09:36 you can ask me about
+metalsmithing because my husband
+09:40 Aaron,
+09:41 who has a capacity to like look
+manic in front of cameras,
+09:45 is a trained goldsmith out of
+Ypsilanti in Detroit.
+09:49 I've got two dogs named Stanley
+and Toby on the left and right
+09:52 respectively, who occasionally
+are able to visit us and lecture
+09:55 a few times throughout the term.
+09:57 In addition to Alicia and me,
+09:59 there's Mark Rakowski,
+10:01 who is the instructor who kind
+of governs everything you do in
+10:05 labs on a weekly basis.
+He designs your lab experiences
+10:09 and a couple other things
+related to it.
+10:12 And then finally,
+10:13 Professor Tian-Jie Wang is the
+one who organizes our 40 person
+10:18 grading team
+10:19 that helps to evaluate all the
+work you submit on a weekly
+10:22 basis and give you good and
+reach feedback on what's going
+10:25 well and where's an area for
+growth.
+10:29 All right,
+10:31 those are the four lead
+instructors associated with
+10:33 Stats 250.
+10:35 I want to briefly highlight that
+our class Canvas page is
+10:38 functionally the hub for any
+materials or information you
+10:42 need to be successful in the
+course, and I'd recommend that
+10:45 you check it relatively
+frequently,
+10:47 ideally daily, in part because
+any announcements that I think
+10:50 we're going you to need over the
+course of the week are typically
+10:54 posted right at the bottom of
+the landing page there, where
+10:57 you see the due dates for the
+Monday and Wednesday lectures of
+11:00 the course, and the due dates
+for you guys, the Tuesday and
+11:03 Thursday lectures of the course.
+11:05 Additionally, you'll see that we
+have hyperlinks to any notes or
+11:08 class recordings that we think
+you're gonna need on a frequent
+11:10 basis.
+11:12 And while the actual tabs change
+over the course of the semester
+11:15 to meet our particular needs,
+11:16 nearly everything that you're
+going to want from the class
+11:19 website are available via those
+hyperlinks.
+11:24 Now, almost in a perfunctual
+way, I wanna spend a couple
+11:27 times answering the common
+questions that students have at
+11:30 the beginning of any class.
+11:32 First,
+11:33 what do you need to bring or
+have access to in order to be
+11:36 successful in it?
+11:38 Stats 250 really only has three
+required resources for you, all
+11:44 of which are either hopefully
+affordable or free to use.
+11:47 Starting from the bottom,
+11:49 the first platform that we'll be
+using on a consistent basis is
+11:53 called Posit Cloud.
+11:55 Sometime later this afternoon or
+tomorrow, I'm gonna send you an
+11:58 invitation link to this platform
+that I ask you accept so that
+12:02 you can get up and running with
+the main computational component
+12:06 of the class.
+12:07 Although this is not a
+programming course and my goal
+12:10 is not to teach anyone to code,
+12:12 I do think that statistical
+software can aid in your
+12:16 understanding of core concepts
+the class introduces.
+12:20 And so to that end, most of your
+weekly lab assignments will
+12:23 involve a small amount of coding
+in a statistical language called
+12:27 R that most students actually
+end up finding very valuable and
+12:31 useful to them, both within
+Stats 250
+12:34 and oftentimes later on in their
+major related courses.
+12:38 Second,
+12:38 we also require that all
+students access GradeScope,
+12:41 an online homework platform that
+we use to submit and return
+12:45 student work.
+12:47 And then finally, we also
+require all students to have
+12:50 access in one of two forms to
+our class lecture notes.
+12:55 I probably sent a few emails to
+you about this before class
+13:00 formally started,
+13:01 that while we don't have
+required textbook in Stats 250,
+13:05 we have historically found that
+students who try and follow
+13:09 along with lectures just on
+loose leaf paper and pen find
+13:13 that the class moves a little
+bit too quickly for them to feel
+13:16 like they're really engaging.
+13:18 And so as a consequence, we
+provided students with a set of
+13:21 partially completed and
+interactive lecture notes that
+13:25 you can either purchase in hard
+form,
+13:28 I see a few students already
+have them if you want to hold
+13:30 them up for me,
+13:32 for cheaper than the cost of
+printing around campus,
+13:35 or if you're a student who has
+access to a tablet and stylus,
+13:39 we also have all of the PDFs
+available for you to download on
+13:43 Canvas so that you can annotate
+them digitally if you prefer.
+13:47 Again, I'm not gonna monitor or
+chastise you if you choose
+13:50 neither of these approaches,
+13:52 but I am going to make the
+argument that literally every
+13:54 student who has said I wanted to
+take my own notes from scratch
+13:57 has later on informed me that
+that wasn't the decision they
+14:00 should have pursued.
+14:01 They should have instead tied
+themselves a little more closely
+14:04 either to the slide deck or the
+raw lecture notes that we use as
+14:07 the basis for all of our class
+meetings.
+14:10 Those are the only three
+required resources for you to
+14:14 have access to and one thing
+you'll be able to gauge this
+14:17 morning before we leave out a
+class is whether you already
+14:20 have access to grade scope and
+everything else just fine.
+14:24 Other than that I want to also
+briefly highlight how you are
+14:27 evaluated over the course of the
+semester.
+14:30 This particular slide tries to
+diagram in a flowchart the three
+14:36 different grades that we use to
+figure out your overall score at
+14:40 the end of the semester.
+14:42 Weekly exam prep assignments are
+worth 10% of your overall
+14:47 standing in the class,
+14:49 your lab work
+14:52 sums to 30% of your overall
+grade in the class,
+14:56 and your exams sum to 60% of
+your overall grade in the class.
+15:02 Now what you'll notice in this
+diagram is that you are actually
+15:06 empowered to make some decisions
+about how that 30% and
+15:11 60% is actually summed up
+together.
+15:15 You'll notice that across this
+grading scheme, we offer every
+15:19 single student in Stats 250
+15:21 the choice to take either an
+active approach or a traditional
+15:26 approach to the lab component in
+this class and the lecture
+15:30 component of this class.
+15:32 And the decision that a student
+makes influences how certain
+15:37 assignments are weighted.
+15:39 Students who elect the
+traditional approach for labs
+15:41 have a five,
+15:43 25% breakdown between lab
+assignments and case study
+15:46 assignments,
+15:47 whereas active approach students
+who are attending lab in person
+15:51 on a weekly basis have a
+slightly different weighting
+15:54 scheme.
+15:55 Similarly,
+15:56 students who opt into the
+traditional lecture approach,
+15:59 where attending lecture in
+person is completely optional
+16:03 and not tracked by me in any
+meaningful way,
+16:05 have their exams weighted at 60%
+of their overall standing in the
+16:09 course.
+Students who commit to attending
+16:12 lecture in person,
+16:13 taking the active approach,
+16:15 and completing a few
+lecture-based assignments,
+16:18 weighted at 10% of their overall
+grade, as a consequence have
+16:21 their exams weighted slightly
+16:23 more liberally at only 50% of
+their overall standing in the
+16:27 class.
+16:29 Now I wanna highlight that the
+decision students make for
+16:33 either lab or lecture
+16:35 is something that can be a
+little bit hard to decide on in
+16:39 a vacuum.
+16:40 And so to that end, I want to
+spend about 10 or 15 minutes
+16:43 talking through how you might
+make an informed decision about
+16:47 whether the active or
+traditional approach is best for
+16:50 you in this course or whether
+some combination of these two
+16:54 approaches,
+16:55 maybe you make different
+decisions across the lab and
+16:57 lecture sections of the class,
+might best benefit your
+17:00 learning.
+17:02 In general, this course is
+structured so that lectures are
+17:05 your first opportunity to engage
+with the key concepts Stats 250
+17:09 covers.
+17:10 And in general, lecture
+participation,
+17:12 whether it's active in person or
+via recordings that we post on a
+17:17 weekly basis,
+17:18 is essential for success in
+Stats 250 and will make it
+17:21 easier for you to do well in the
+class
+17:23 and in general, every single
+class session that we have is
+17:26 broken down into two components.
+17:29 Across our 80 minute meeting,
+17:32 I'll take about 45 or 50 minutes
+to give a traditional lecture on
+17:35 a new topic,
+17:36 and then the remaining half hour
+will be reserved for students
+17:41 who attended that day to work in
+small groups on an activity that
+17:45 they turn in before leaving out
+of the class period that day.
+17:49 In general,
+17:50 when you are making the decision
+between a traditional lecture
+17:53 approach or an active lecture
+approach,
+17:56 you are deciding whether you
+want those activities every day
+18:01 to count towards your grade or
+whether you want them to be,
+18:05 or whether you want to be
+exempted from those activities.
+18:08 Functionally, what that implies
+is that students in the
+18:11 traditional approach,
+18:12 while they could attend lecture
+in person,
+18:14 they could also engage in the
+class remotely,
+18:17 viewing recordings on their own
+time,
+18:19 and the two types of lecture
+activities that we offer
+18:22 students,
+18:23 the pre-work assignments and the
+in-class group work assignments,
+18:27 are not required,
+18:28 they're not graded,
+18:29 and students aren't penalized if
+they don't complete them.
+18:32 In contrast,
+18:34 students in the active approach
+technically have required
+18:37 in-person attendance to lecture
+sessions.
+18:40 Those pre-working group
+assignments are required to be
+18:43 completed on a daily basis,
+18:45 and students will work in groups
+to complete and submit a set of
+18:48 exercises by the end of each
+day.
+18:50 The purpose of these lectures is
+to offer students who complete
+18:54 those exercises
+18:55 relatively immediate feedback on
+what they understood from a
+18:59 lecture setting.
+19:01 The same day that you were first
+introduced to the idea,
+19:04 you get a little bit of
+formative feedback about whether
+19:07 you understood absolutely
+everything,
+19:09 whether a couple concepts that
+you needed to review in a little
+19:12 bit more detail,
+19:13 and so on and so forth.
+19:17 Now what I like to do is maybe
+call out the elephant in the
+19:20 room.
+19:21 What is the purpose,
+19:22 or maybe what is the motivation
+19:24 for picking an active learning
+approach that on paper just
+19:28 says,
+19:29 oh you have more assignments to
+complete on a weekly basis.
+19:31 And if you complete those
+assignments on a weekly basis,
+19:33 your exams are weighted a little
+bit more liberally.
+19:37 And rather than answer that
+question myself,
+19:39 I'd like to expose you to the
+results of a study that was
+19:43 conducted on a class that was
+formatted basically identically
+19:46 to Stats 250.
+19:48 There was a paper published back
+in 2019
+19:51 on a large lecture introductory
+physics class.
+19:56 And just like I'm offering you
+now,
+19:58 Students in this physics class
+were given the choice between
+20:01 what they termed a traditional
+or passive
+20:04 or an active learning approach
+to class.
+20:07 And at the very end of the
+semester,
+20:10 the researchers recorded some
+information about how students
+20:13 felt the class experience went.
+20:18 Did they wish that all of their
+physics courses were taught in
+20:20 this way?
+20:21 Did they feel like their
+instructor was effective at
+20:23 teaching the content of the
+class? Do they feel like they
+20:27 learned a great deal from
+attending lecture?
+20:29 Did they enjoy it?
+20:31 And then also,
+20:32 what was their exam score at the
+end of the semester?
+20:36 What I'd like you to do is turn
+to a neighbor and reintroduce
+20:39 yourself by your first name, if
+you've forgotten their first
+20:42 name,
+20:42 and discuss your answers to one
+simple question.
+20:46 What is the most striking
+takeaway of these results?
+20:51 That's a relatively generous
+question.
+20:53 Striking can be something that
+surprises you,
+20:56 that confirms a preexisting
+belief that you may have had,
+20:59 that confuses you,
+21:00 that makes you ask more
+questions about the results of
+21:03 this study.
+21:04 I'd like you to turn to a
+neighbor to discuss your
+21:07 responses to that simple
+question.
+21:09 What do you find most striking
+about these results?
+21:12 Go for it.
+21:13 Thank
+21:42 you.
+21:43 .
+22:13 .
+22:48 All right, folks, I know that
+that is a quick turnaround on
+22:51 that think, pair, share.
+22:53 But if you bring your focus back
+up to the front of the room, I
+22:55 would be interested in getting a
+couple responses from the room.
+22:59 What did people find striking
+about the results of this study?
+23:05 Sure.
+23:08 Overall,
+23:13 it appears that the course was
+more difficult for active
+23:16 approach students but they did
+better on the test of learning.
+23:19 Excellent.
+23:20 Anybody want to add on to that?
+23:22 Yeah.
+23:23 Especially with the blue box
+that I feel like I learned a
+23:27 great deal through this lecture,
+23:28 passwords seem to be higher,
+23:29 though active was higher in
+testing.
+23:32 So, like the actors probably saw
+a little link to do things that
+23:35 they were doing wrong while they
+were doing the assignments to
+23:39 fix them for the test of
+learning.
+23:41 So,
+23:41 the notion here we're not only
+observing a pattern, but maybe
+23:44 providing an explanation of the
+pattern.
+23:46 It's possible that active
+approach students were being
+23:49 told that they were wrong on
+things, kind of consistently
+23:52 over the course of the term and
+as a consequence made
+23:55 corrections in their thinking by
+the time the final exam rolled
+23:58 around does that accurately
+describe the idea that you were
+24:01 communicating excellent other
+ideas yeah
+24:39 That's an excellent question.
+24:40 And maybe if I'm trying to
+summarize it to make sure I
+24:42 heard it correctly,
+24:44 why is it that the active
+approach students feel like
+24:48 they're in a worse headspace
+than the passive approach
+24:50 students in terms of their
+reflective experiences on how
+24:53 the course went.
+24:55 My grandfather before he passed
+would always tell me,
+24:59 you know John,
+25:00 90% of people on the road think
+they're an above-average driver.
+25:05 And he'd always chuckle because
+there's something that
+25:08 statistically doesn't quite work
+with that claim.
+25:12 90% of people think they're an
+above-average driver certainly
+25:16 about half of people need to be
+below the average right the
+25:21 argument that he was making I
+think can help understand the
+25:24 results of this study which is
+that oftentimes what I worry
+25:29 about as a professor of a
+Gateway STEM course is that
+25:32 students lack feedback they
+don't have enough touch points
+25:37 over the course of the semester
+to correctly gauge where their
+25:42 understanding level is of
+content that a course is
+25:45 covering.
+25:46 I have my own personal
+experiences in undergraduate
+25:49 school where I discovered I did
+not understand something
+25:55 when I got a test back.
+25:57 And I feel like that is the
+worst possible time to learn
+26:00 that information.
+26:02 I'd much prefer to know that
+earlier on.
+26:06 And in Stats 250,
+26:07 we have designed a completely
+optional track to kind of
+26:11 fulfill that mission,
+26:13 give you tons of touch points
+26:15 that are very low stakes and
+worth very few points so that
+26:19 you can trip up on something,
+26:22 you can face plant on a concept
+without consequence.
+26:26 Maybe you don't do so hot on a
+lecture activity,
+26:28 maybe you don't do well on a
+pre-work assignment,
+26:31 and it really doesn't matter in
+terms of your overall grade.
+26:34 So long as you take that
+information and act upon it.
+26:38 Figure out where that
+misunderstanding is, what you
+26:40 wanna review a little bit
+further so that you're well
+26:42 prepared for more heavily
+weighted assignments throughout
+26:45 the class,
+26:46 specifically case studies and
+exams.
+26:49 Now to that end, I wanna be
+clear,
+26:52 and I'm sort of editorializing
+the choice that I think benefits
+26:55 students most.
+26:57 But there are many students in
+Stats 250 who genuinely are
+27:01 better served by the traditional
+track because they've got a
+27:04 really, really cumbersome some
+course schedule and they benefit
+27:07 from the additional attendance
+flexibility of being able to
+27:10 work on the class remotely some
+weeks.
+27:13 I want you to make the decision
+27:16 of whether you'll be an active
+or traditional approach student
+27:19 for this class
+27:20 after you have done three test
+runs of the active approach.
+27:26 Before we leave out a class this
+morning, I'm gonna give you a
+27:29 dry run example of a lecture
+activity.
+27:31 I will do the same thing during
+both of our class sessions,
+27:35 well lecture two and lecture
+three.
+27:38 It is only after lecture three,
+after you've had three
+27:41 opportunities to give the active
+approach a dry run,
+27:43 do I want you to submit your
+decision that locks you in for
+27:47 the rest of the term.
+27:49 Next week we'll also talk about
+how you make a similar decision
+27:53 for the lab component of this
+class.
+27:57 But before we move forward to
+other components of the course,
+27:59 I wanna pause and ask what
+questions you have about the
+28:02 ideas we've discussed so far.
+28:08 Yes.
+28:09 So what happens if you opt for
+the active approach and you have
+28:15 to miss things because you're
+sick?
+28:16 Excellent question.
+28:17 What if I'm an active approach
+student and I get sick?
+28:20 Happens.
+28:21 The active approach is designed
+so you get four guaranteed
+28:24 drops.
+28:25 What that implies basically is
+that we're expecting you to have
+28:28 about 80% attendance over the
+course of the term.
+28:30 I think I'm the only person who
+should have 100% attendance
+28:34 required.
+28:36 Excellent question.
+28:37 Other questions?
+28:38 Yeah.
+28:42 Excellent question.
+28:44 Any lecture activity that you
+complete before you leave out a
+28:47 class is evaluated on a mix of
+accuracy and completion.
+28:51 In general,
+28:52 historically,
+28:53 I think the average lecture
+activity grade is about a 90 or
+28:56 92 percent.
+Most students end up finding a
+28:59 lot of success on those
+assignments,
+29:01 in part because,
+29:03 I'll introduce them when they
+arrive today, but we actually
+29:05 have an instructional assistant
+team that comes in and
+29:07 circulates the room to answer
+questions you may have about
+29:10 exercises you're working on.
+29:14 Excellent question.
+29:15 Other questions before I move
+forward to a couple other things
+29:17 about course logistics?
+29:19 Yeah.
+29:26 We designed pre-work assignments
+to take somewhere between five
+29:30 and ten minutes.
+29:32 They're meant to literally just
+preview the topics that you'll
+29:35 be discussing during the next
+class session.
+29:39 Alright I know that there may be
+other questions regarding course
+29:42 logistics that I can answer
+later on in this morning's class
+29:45 period.
+29:46 For now I briefly want to touch
+on the fact that we have three
+29:49 exams in this course.
+29:51 They are closed notes,
+29:53 pen and paper tests that are
+scheduled for February 11th,
+29:56 March 19th and April 23rd.
+29:59 And before any test in this
+class, we'll typically give you
+30:03 a practice test along with a
+review packet
+30:06 and a special office hours
+scheduled a week prior that has
+30:10 augmented accessibility so that
+students can work with GSIs
+30:13 during their test prep period.
+I want to also highlight that in
+30:17 the possible event that you're
+enrolled in a class that meets
+30:21 during one of those three
+evenings,
+30:23 we'll circulate a Google form
+about a week before the exam
+30:26 that allows you to request an
+alternate proctoring session.
+30:29 And finally, if you're entitled
+either to reduce distraction
+30:32 seating,
+30:33 extended time, or other testing
+related accommodations,
+30:37 please make sure that you submit
+those to the Stats 250
+30:39 instructional team,
+30:41 ideally by next week Monday,
+just so that we can make sure we
+30:44 know that you have testing
+accommodations and we can plan
+30:47 accordingly.
+30:49 In addition to those exam
+logistics,
+30:52 I wanna briefly talk about the
+difference between lab and case
+30:56 study assignments that together
+sum to about 30% of your overall
+30:59 grade.
+31:00 In general, the lab component of
+this course is designed to
+31:04 complement or deepen
+31:05 the learning that you conduct in
+lectures.
+31:08 And it provides you with
+opportunities to do hands-on
+31:11 analyses of real-world data
+sets.
+31:14 And although, again, I mentioned
+this is not a coding or
+31:17 programming class, many students
+do find that they build an
+31:20 introductory proficiency in R,
+31:23 one of the most powerful
+statistical software language
+31:27 available to us these days.
+31:29 And I wanna highlight that the
+very first lab assignment that
+31:32 you'll complete is asynchronous,
+31:34 basically asking you to poke
+around
+31:37 the positive cloud working
+environment and get oriented to
+31:39 how to actually knit a file and
+submit it via Gradescope.
+31:44 There are 10 lab assignments
+across the semester.
+31:48 Three of them we refer to as
+augmented case studies.
+31:54 In a case study week,
+31:56 you'll attend lab just as you
+would usually.
+31:58 Still conduct an analysis of
+some real world data set.
+32:02 But in a case study week, you
+are also tasked with writing up
+32:06 a brief statistical report of
+your findings,
+32:10 summarizing the results of your
+analysis, and in most cases
+32:13 trying to make a persuasive
+argument based off of those
+32:16 results.
+32:18 Whether you choose the active or
+traditional approach for labs
+32:23 influences how the regular lab
+assignments are weighted and how
+32:27 the case study assignments are
+weighted.
+32:30 You can find a lot more details
+on those weighting breakdowns in
+32:34 our class syllabus.
+32:36 Finally,
+32:37 that third component of the
+course that's weighted
+32:39 equivalently for students across
+all approaches are what we call
+32:43 exam prep assignments,
+32:45 which are assigned weekly to
+give you practice kind of on
+32:49 your own time outside of class
+on content that we've explored
+32:52 in lecture.
+32:54 There are 10 assignments total
+throughout the semester, and
+32:57 although we don't allow late
+submissions or offer any kind of
+33:00 extension on exam prep
+assignments,
+33:02 we do automatically drop your
+two lowest scores, giving
+33:05 students some flexibility when
+it comes to completing and
+33:08 turning in those assignments.
+33:11 That's all I had when it comes
+to course logistics.
+33:14 There are other details that I
+hope you'll read through in our
+33:18 syllabus,
+33:19 but before we actually
+transition into talking about
+33:22 some statistical content, I want
+to pause and ask what follow-up
+33:25 questions you have
+33:26 I don't think I
+33:32 don't think I see any hands up
+and so to that end let's take
+33:36 the remainder of our class
+period and actually dive into
+33:40 talking about some statistical
+ideas lecture one is very brief
+33:45 we're only going to talk for
+about 20 or 25 minutes and it's
+33:51 designed to get students in a
+place where if they're given a
+33:55 data set,
+33:55 they can identify the
+observational units of the study
+33:58 and the variables that describe
+them and distinguish between
+34:01 population parameters and
+statistics using appropriate
+34:04 notation.
+34:06 My goals are to try and walk
+through these two learning
+34:08 objectives in about, again,
+34:10 20 or 30 minutes time
+34:12 and then reserve the last
+portion of this morning's class
+34:15 period to go through a dry run
+of one of those lecture
+34:19 activities, active approach
+students would be completing on
+34:22 a weekly basis.
+34:24 To start us off I want to ask
+everyone in this room two unfair
+34:28 questions.
+34:30 I'd like you to turn to a
+neighbor and tell that person
+34:33 how old you think this person
+is.
+34:38 Then I'd like you to guess how
+old this other person is.
+34:43 We'll come back together in
+about 30 seconds to review.
+34:46 Go for it.
+34:50 .
+35:31 All right, folks.
+35:32 I know that's a quick
+turnaround, but I'm slightly
+35:35 concerned that I'm bringing out
+the worst in us by asking these
+35:38 two questions.
+35:40 And I want to reveal the answer.
+First of all, does everybody
+35:42 have a decision for both of
+these individuals?
+35:46 All right.
+35:48 The person on the left is 37,
+35:54 the person on the right is 22.
+36:03 Now that was a lot of oohs and
+aahs for a relatively
+36:06 inconsequential game, but I want
+to highlight the fact that last
+36:10 semester I asked the same
+students who are sitting in your
+36:13 seats to submit their answers to
+record.
+36:17 And I wanna show you the
+responses that last semester's
+36:21 students had when trying to
+guess the ages of the person on
+36:24 the left and on the right.
+36:29 What I'd like you to do is again
+turn to a neighbor
+36:32 and have a brief discussion
+around the following questions.
+36:36 What are your main takeaways
+from inspecting and comparing
+36:41 these two graphs of data.
+36:44 You might consider discussing
+whether the guesses were biased
+36:47 or unbiased,
+36:48 and for which photo the observed
+guesses were more accurate.
+36:53 Turn to a neighbor,
+36:54 just like we did previously, to
+discuss what you find most
+36:56 striking about these results,
+36:58 and we'll come back together in
+about a minute to review.
+37:01 Go for it.
+37:22 Thank
+37:26 you very much.
+37:55 All right, folks, I know I'm
+interrupting, but that is a
+37:57 quick 60 seconds.
+37:59 Just like last time, I'd be
+interested in having a few
+38:02 people volunteer a summary of
+what they just discussed.
+38:06 What do you find striking about
+how these two graphs
+38:09 are similar,
+38:10 how they differ, or other things
+that you noticed?
+38:16 Sure.
+38:17 So one on the left has a bit of
+a larger range between the two,
+38:22 it's kind of like 45,
+38:24 and then on the right,
+38:26 it's more like convex,
+38:35 that everyone could hear, it
+appears that the guesses for the
+38:39 photo on the left had more
+variability or perhaps less
+38:44 precision than the guesses for
+the graph or the photo on the
+38:48 right.
+38:49 Other observations?
+38:50 I think there might be a bias
+towards accuracy in the photo on
+38:53 the right because us making the
+guess we're closer in age to the
+38:59 person pictured in the right
+than we are in the actual age of
+39:03 the person pictured on the left
+so we might have a better idea
+39:05 of how to gauge someone's age
+with the right.
+39:10 Excellent.
+I want to restate that so that
+39:11 everyone in the room can hear
+and also editorialize that
+39:14 comment.
+The comment makes the following
+39:16 observation,
+39:18 there's less variability on the
+right than there appears to be
+39:21 on the left,
+39:22 and then it makes a claim.
+39:24 The difference in variability
+could be due to the fact that
+39:28 it's easier to guess the age of
+an individual who is close to
+39:33 your own age.
+39:35 And so a person who is of
+college age should be better at
+39:40 guessing a 22 year old's age
+accurately than a 37 year old's
+39:43 age accurately.
+In fact,
+39:45 that's the type of question that
+I wanted to ask on the next
+39:49 slide.
+39:50 Not whether a person's age
+influences the guess that they
+39:54 make,
+39:56 but whether a person's gender
+does.
+39:59 Let's take a look at the guessed
+age for this 37-year-old
+40:04 individual,
+40:05 broken apart by whether the
+guesser,
+40:08 by whether the student
+identified as female,
+40:12 male, or non-binary.
+40:14 I'd like you to again turn to a
+neighbor and discuss your answer
+40:18 to the following question.
+40:19 What are your main takeaways
+from inspecting these data?
+40:24 We'll come back together in 60
+seconds.
+40:25 Go for it.
+40:52 Thank you.
+41:18 All right, folks, I know that's
+a quick turnaround, but if you
+41:21 bring your focus back up to the
+slide in
+41:26 contrast with the previous one.
+41:29 And I want to try and maybe
+interpret
+41:34 this first slide as helping us
+answer questions
+41:39 about a response variable,
+41:43 an outcome kind of in a vacuum.
+41:46 What is the typical guess for
+the photo on the left?
+41:49 How much dispersion does it
+display?
+41:52 Does the distribution of guesses
+appear to be symmetric,
+41:56 maybe asymmetric,
+41:57 does it have multiple modalities
+to it, does it appear to be
+42:00 unimodal?
+42:01 These graphs help us understand
+the behavior of a single
+42:05 response in isolation.
+42:08 In contrast,
+42:09 this second slide still displays
+information about that response,
+42:15 but instead emphasizes how it is
+impacted, or perhaps how it is
+42:20 associated
+42:22 with a potential explanatory
+variable.
+42:25 Does gender influence the
+response of guesses that the
+42:30 person in this first photo
+receives?
+42:33 Is there a relationship between
+the gender of the guesser and
+42:36 the gender of the guest
+individual?
+42:40 Those are two different types of
+questions that largely describe
+42:45 the two halves of our semester
+together.
+42:48 leading up until spring break,
+42:51 we will primarily be interested
+in statistical methods that help
+42:55 us understand and make claims
+about any response variable we
+43:01 might be interested in studying.
+43:03 And after we return from spring
+break,
+43:06 we'll change our emphasis to not
+so much look at the distribution
+43:10 of the response in a vacuum or
+isolation,
+43:13 but how that response is related
+to potential explanatory
+43:17 variables.
+43:18 And how you go about deciding
+whether a prospective variable
+43:22 does explain distributional
+changes in some response.
+43:27 Now that's a lot to tackle over
+the course of a single semester.
+43:31 How do we describe the
+variability or distribution of
+43:34 observed data and then how do we
+figure out what types of factors
+43:37 predict it.
+43:39 And in order to tackle those two
+big questions, I need to spend
+43:42 the rest of our class this
+morning talking about some
+43:46 foundational terminology we will
+use in every class period moving
+43:50 forward this term.
+43:52 The first thing I want to
+acknowledge is that the data
+43:55 that I've displayed on the
+previous slide and then on the
+43:58 next slide
+43:59 are actually stored in what
+statisticians typically refer to
+44:02 as a data frame or a data set.
+44:05 And to make sure that we're all
+on the same page, I wanna
+44:07 briefly highlight the fact that
+any time you are working with a
+44:11 set of observed data collected
+from the world around you, it's
+44:14 conventional to list out the
+observational units of a study,
+44:20 they're sometimes referred to as
+the cases of a study, across the
+44:24 rows of a data frame.
+44:26 And the number of independent
+observational units or cases
+44:30 observed in a data set typically
+determines the sample size of a
+44:34 statistical study,
+44:36 which statisticians usually
+denote with a lowercase n.
+44:41 If the observational units of
+the study describe the rows of
+44:46 our data frame,
+44:47 we could label the columns as
+variables we have recorded.
+44:53 By definition,
+44:54 a variable describes any
+characteristic of an
+44:57 observational unit you might
+record.
+44:59 And often they form the columns
+of an observed sample of data.
+45:05 Now when we take a look at the
+various things that were
+45:07 recorded for this particular
+data set.
+45:10 Students who were guessing the
+ages of photographed strangers.
+45:15 I wanna highlight the fact that
+not all of these columns
+45:19 are describing these
+observational units in the same
+45:22 way.
+45:23 For instance,
+45:25 let's take a look at
+45:27 the column photo one guess.
+45:32 This simply records the age that
+a college student guessed for
+45:37 that very first individual on
+the left.
+45:41 Right next to it is another
+column
+45:46 that classifies that guess as
+either being an overestimate,
+45:50 an underestimate,
+45:52 or a correct guess for that
+individual's age.
+45:55 And I want to highlight the fact
+that if I wanted to,
+45:58 I could go through the work of
+figuring out the average value
+46:02 of the column photo one guess.
+46:07 However, it doesn't really make
+sense
+46:09 to take the average of that
+second column.
+46:14 You can't really take the
+average of the word under, the
+46:16 word over, the word correct.
+46:19 And that's because these two
+different columns represent
+46:22 variables of different types.
+46:25 Any statistical study that we
+conduct in this class,
+46:29 let me make that a more grand
+statement,
+46:31 any statistical study that you
+observe inside Stats 250 or
+46:36 elsewhere deals with variables
+that can be classified into one
+46:41 of two types.
+46:43 All data that you collect from
+the world around you either
+46:46 represents observations of a
+quantitative variable
+46:50 for which taking arithmetic
+operations provides meaningful
+46:54 information about the sample
+you've collected
+46:56 or observations of a categorical
+variable which groups or
+47:02 places an observational unit
+into,
+47:05 as the name implies, a category.
+47:09 In general, when we think about
+quantitative variables that we
+47:13 might be interested in studying
+or categorical responses that we
+47:16 might be interested in studying,
+47:19 we oftentimes want to think
+about how those variables
+47:23 operate
+47:24 at both the population and
+sample level.
+47:26 By definition,
+47:29 the population of interest
+represents the group of
+47:33 observational units that you're
+interested in learning more
+47:35 about.
+47:36 Now, in many situations,
+47:38 the population that a
+statistician or researcher is
+47:41 studying
+47:42 cannot be fully observed.
+47:45 Perhaps the population is too
+large.
+47:47 For instance, it's very
+difficult, even for the federal
+47:50 government, to observe every
+individual American citizen
+47:54 every 10 years during the US
+Census.
+47:57 It's very difficult to observe
+such a population,
+48:00 at least because it's very, very
+large.
+48:03 There are other situations where
+the population of interest can't
+48:07 be fully observed because it
+would be unethical to observe or
+48:12 record data on every member from
+that population.
+48:15 As an example, I was working
+with a marine biologist who was
+48:19 studying coral reef health in
+the South Pacific.
+48:22 And in order to collect data on
+the health of those coral reefs,
+48:27 she had to remove them from the
+ocean,
+48:30 basically killing every
+observation of coral that she
+48:34 sampled.
+48:36 In such a situation,
+48:38 you obviously don't wanna
+collect data on the entire
+48:41 population that you're studying.
+48:43 Doing so would destroy it,
+48:44 and so it's in fact more ethical
+to only study a subsample of
+48:48 that broader group.
+48:50 In any of those instances or
+even others, statisticians often
+48:54 times rely on just taking a
+random selection of that
+48:58 population.
+48:59 A sample from that broader group
+and observing how the variables
+49:03 behave among that smaller
+subset.
+49:06 That leads me to maybe two more
+pieces of terminology I wanna
+49:10 make sure we're all on the same
+page regarding.
+49:14 By definition,
+49:16 a parameter is a numerical
+characteristic of a population.
+49:22 It could be the population's
+average,
+49:26 could be the population's
+maximum value or minimum value,
+49:30 it could be the count of members
+in a population that take on
+49:34 some categorical outcome.
+49:36 And in general,
+49:37 in most statistical settings, a
+parameter represents
+49:42 a fixed,
+49:47 true,
+49:50 but typically unknown value that
+we're interested in learning
+49:54 more about.
+50:01 In contrast,
+50:02 a statistic is simply defined as
+a numerical characteristic of an
+50:06 observed sample.
+50:08 And any statistic that we might
+compute to summarize some sample
+50:13 of data that we've collected
+from the broader population is a
+50:17 random
+50:20 and typically observed
+50:30 value that estimates the
+parameter that you are studying.
+50:51 As an example,
+50:53 let's say that I was interested
+in studying a pretty large but
+50:58 certainly finite population.
+51:01 Let's suppose I'm interested in
+studying all All students who
+51:05 are enrolled in stats 250 this
+semester.
+51:08 I think there are about 1800 of
+you this term.
+51:11 And that's too many for me to
+talk to one by one.
+51:15 Perhaps I only talk to the
+subset of students who happened
+51:19 to be sitting in the first row
+this morning.
+51:22 So we have a subset of two,
+51:25 five, eight,
+51:26 10 individuals.
+51:28 If I ask those 10 individuals,
+how many texts have you sent in
+51:34 the past two hours?
+51:37 Their average answer would be
+considered a statistic.
+51:40 It's a function of who happened
+to decide to sit in the first
+51:43 row that morning.
+51:45 And whatever that value is,
+51:47 maybe it's three,
+51:48 maybe it's 30 if you're avid
+morning texters,
+51:51 that value estimates the true
+but unknown average the entire
+51:56 population of all Stats 250
+students have sent in the last
+52:00 two hours and in general these
+parameters and the
+52:05 statistics that estimate them
+are distinguished by different
+52:10 notational symbols.
+52:13 The last idea that I want to
+tackle before we break for a dry
+52:17 run of a lecture activity is how
+we refer to the average of a
+52:22 population compared to the
+average of an observed sample of
+52:25 data.
+52:26 How we would denote the standard
+deviation of a population versus
+52:30 the standard deviation of a
+sample and so on and so forth.
+52:35 Let's suppose I'm interested in
+understanding,
+52:37 on average,
+52:39 how old Stats 250 students think
+the person in photo one was.
+52:43 Whatever that number is,
+52:46 I would denote it with the Greek
+letter mu.
+52:53 And I could estimate that
+parameter value using a sample
+52:58 of collected data
+53:00 using the statistic mu hat.
+53:08 Similarly,
+53:10 the symbol sigma,
+53:12 or specifically lowercase sigma,
+could be used to describe the
+53:17 variability at the population
+level of some quantitative
+53:19 variable.
+53:21 And that population level
+standard deviation
+53:23 could be estimated with sigma
+hat.
+53:30 Finally, if I instead wanted to
+look at the behavior of a
+53:34 categorical response,
+53:36 for instance,
+53:37 what proportion of photo one
+guesses are classified as
+53:41 underestimates,
+53:42 I could denote a population
+proportion,
+53:45 a population percentage, or a
+population rate with the symbol
+53:50 pi,
+53:52 and estimate that outcome with a
+sample proportion pi
+53:58 hat.
+54:05 You'll have the opportunity to
+practice matching these symbols
+54:08 to their associated quantities
+in about five or 10 minutes from
+54:12 now.
+54:12 Before we get to that additional
+practice, I want to offer you
+54:16 one last think pair share.
+54:19 What I'd like you to do really
+briefly is suppose that the
+54:23 students in today's class
+session are the observational
+54:28 units of a survey study.
+54:31 Everyone in this room is the
+population that I am interested
+54:34 in learning more about.
+54:36 I give you a quick pen and paper
+questionnaire and I ask you the
+54:38 following questions.
+54:40 How long did you sleep last
+night? In what zip code were you
+54:43 born?
+54:43 How many credits are you taking
+this term? And are you left or
+54:46 right hand dominant.
+54:47 I want you to think about the
+answer you would give to each of
+54:50 these questions and whether that
+response should be considered a
+54:54 quantitative outcome or a
+categorical one.
+54:57 Then,
+54:58 I want you to answer a slightly
+trickier set of questions.
+55:03 Suppose there are two other
+questions that I want answered.
+55:07 What proportion of the students
+in this class are left handed
+55:10 and what is the average amount
+of sleep in the past 24 hours
+55:13 among all students in today's
+session?
+55:16 Whatever the answers to those
+questions are,
+55:19 they are not variables.
+55:22 Why is that?
+55:24 Take two minutes to discuss your
+thinking around the questions
+55:27 posed on this slide.
+55:28 We'll come back to review
+together thereafter.
+55:30 Go for it.
+56:16 .
+56:50 All right, folks, I know that's
+a quick two minute turnaround on
+56:54 that think pair share, but if
+you bring your focus to the
+56:57 front of the room for the final
+time in this morning's class
+56:59 period,
+57:00 I want to briefly figure out
+whether or not your responses
+57:04 for how those first four
+variables behave match mine.
+57:10 I think that the answer to the
+question how long did you sleep
+57:14 last night prompts a
+quantitative response,
+57:18 same with how many credits you
+are taking this semester.
+57:21 I think it's pretty obvious that
+the fourth question leads to a
+57:24 categorical response,
+57:26 but I wanna highlight the fact
+that the second question does as
+57:29 well.
+57:30 When I ask someone in what zip
+code you were born,
+57:34 some students initially think
+that the response is numerical,
+57:38 or perhaps is quantitative.
+57:41 And although a zip code is a
+number, I want to highlight the
+57:45 fact that if I tell you my zip
+code and you tell me yours and
+57:50 we find the average of our two
+zip codes, we've learned
+57:55 nothing.
+57:56 That is a classifying variable.
+58:00 If the average of two outcomes
+doesn't give you any meaningful
+58:05 information,
+58:06 it's still a categorical
+variable, even if it's denoted
+58:09 numerically.
+A phone number,
+58:12 a UMID number,
+58:13 a social security number are all
+classifiers.
+58:17 They are not things that provide
+meaningful averages or sums and
+58:20 so shouldn't be considered
+quantitative variables.
+58:24 I want to also highlight,
+58:26 kind of as I previewed, that the
+answers to our last two
+58:28 questions
+58:29 also don't get us variables.
+58:33 And the reason for that is this.
+By definition,
+58:37 a variable must
+58:43 describe
+58:44 the individual observational
+units of a study.
+58:52 The quantities that these two
+questions are asking for don't
+58:57 describe individual
+observational units.
+59:00 They describe the entire
+population of observational
+59:04 units that we're studying.
+59:07 The answers to these two
+questions
+59:11 describe the entire population
+of interest.
+59:18 They are parameters.
+59:22 And so they might be denoted
+59:25 as the proportion pi of students
+in this class who say that they
+59:30 are left hand dominant.
+59:32 Or the average amount of sleep,
+59:35 mu,
+59:36 that students in this class got
+over the past 24 hours.
+59:55 At this point, we've introduced
+all the key ideas that we need
+59:59 to to do our dry run of the very
+first lecture activity of the
+1:00:04 semester.
+1:00:06 And before we transition to the
+last part of this morning's
+1:00:09 class, I want everyone to take a
+moment,
+1:00:11 pause what they're doing,
+1:00:12 and crane their neck to the very
+back of the room.
+1:00:15 What you'll see is that a set of
+undergraduate instructional
+1:00:19 assistants and graduate student
+mentors have joined us and will
+1:00:24 join us around this time during
+every lecture session that we
+1:00:28 have over the course of the
+semester.
+1:00:31 The only reason why they are
+here this morning
+1:00:34 is to answer your questions as
+you work through lecture
+1:00:37 activities.
+And so to that end, I encourage
+1:00:40 you not to be bashful,
+1:00:42 to be greedy with their
+attention and to call them over
+1:00:45 to ask questions about your own
+thinking,
+1:00:47 how to approach exercises that
+you're unsure of, or anything
+1:00:50 else that you want clarified
+from the lecture that you just
+1:00:53 sat through.
+1:00:55 They'll start circulating around
+in a moment as you get working
+1:00:58 on today's lecture activity.
+1:01:00 What I'd like to do is model how
+to find it.
+1:01:04 In a moment,
+1:01:05 or well, you can follow along
+now, you can follow along after,
+1:01:07 but in a moment I'd like you to
+turn your attention to our class
+1:01:12 canvas page
+1:01:14 which has a tab on the top left
+called grade scope sites if you
+1:01:20 click on grade scope sites and
+then open up the platform in a
+1:01:23 new tab you may let me actually
+model this for everyone you may
+1:01:28 initially be hit with a login
+screen like this
+1:01:34 one and I want to be clear even
+if you have never seen this site
+1:01:38 before in your life I do not
+want you to sign up for grade
+1:01:42 scope I have already done that
+for you I want you to log in
+1:01:46 ideally using your school
+credentials when you click on
+1:01:50 school credentials you'll have
+the option to pull up the
+1:01:53 University of Ann Arbor I think
+the fastest way to do that is to
+1:01:57 type in the unique and unique
+name because no other or college
+1:02:00 across the country uses that
+idea.
+1:02:03 And when you click on that,
+you'll be instructed to sign in
+1:02:07 with your Shibboleth
+credentials.
+1:02:11 And from there, you should find
+that you're actually enrolled in
+1:02:15 two different grade scope
+courses associated with Stats
+1:02:18 250.
+1:02:20 One is where you'll find all of
+your weekly exam prep
+1:02:23 assignments,
+1:02:24 all of your lab assignments,
+1:02:25 exams, and case studies.
+and the other is the one you
+1:02:29 would find all of your lecture
+related work if you elected to
+1:02:33 take the active approach in this
+class.
+1:02:36 If you click on that tile,
+1:02:37 you should see the very first
+group work assignment is
+1:02:40 available for you to get started
+working on.
+1:02:43 And if you take just 30 more
+seconds to keep your focus on
+1:02:47 the front of the room,
+1:02:48 I wanna highlight the fact that
+these lecture activities are
+1:02:51 designed to be completed
+collaboratively.
+1:02:54 Ideally in groups of between two
+and four students.
+1:02:59 What I'd like you to do between
+now and the end of this
+1:03:01 morning's class period
+1:03:03 is take some time to find a
+group of two or four students
+1:03:06 and actually work through this
+dry run of a lecture activity.
+1:03:11 Again, I wanna highlight,
+1:03:12 it's not graded.
+1:03:13 I'll score it for you and return
+your evaluations and solutions,
+1:03:17 but it does not contribute
+toward your overall grade in the
+1:03:20 class and is designed to help
+you understand whether you think
+1:03:23 the active or traditional
+approach in the course is going
+1:03:26 to better support your learning.
+1:03:28 The key set of directions that I
+want to leave up in the front of
+1:03:31 the room before you get started
+are on this slide.
+1:03:35 They give you step-by-step
+instructions on how,
+1:03:38 when you're done with your group
+work assignment, you can go
+1:03:42 through the steps of tagging all
+of the students you collaborated
+1:03:45 with.
+1:03:47 That's all I've got at this
+time.
+1:03:49 when you're ready,
+1:03:50 turn to a few of your neighbors,
+and get started on this dry run
+1:03:53 of a lecture activity.
+1:03:54 I'll bring us all back together
+when there are only about two or
+1:03:58 three minutes remaining so that
+we can wrap up class.
+1:04:00 Let's get to it.
+1:04:19 Thank
+1:04:47 you.
+1:04:49 Thank
+1:05:17 you.
+1:05:19 Thank
+1:05:47 you.
+1:05:49 Thank
+1:06:17 you.
+1:06:19 Thank
+1:06:47 you.
+1:06:49 Thank
+1:07:17 you.
+1:07:19 Thank
+1:07:47 you.
+1:07:49 Thank
+1:08:18 you.
+1:08:19 Thank
+1:08:47 you.
+1:08:49 Thank
+1:09:17 you.
+1:09:19 Thank
+1:09:47 you.
+1:09:49 Thank
+1:10:17 you.
+1:10:19 Thank
+1:10:47 you.
+1:10:49 Thank
+1:11:17 you.
+1:11:19 Thank
+1:11:47 you.
+1:11:49 .
+1:12:19 Thank
+1:12:47 you.
+1:12:49 Thank
+1:13:17 you.
+1:13:47 Thank you.
+1:13:49 Thank
+1:14:17 you.
+1:14:19 Thank
+1:14:47 you.
+1:15:17 Thank you.
+1:15:19 Thank
+1:15:47 you.
+1:15:49 Thank
+1:16:17 you.
+1:16:19 Thank
+1:16:47 you.
+1:16:49 Thank
+1:17:17 you.
+1:17:19 Thank
+1:17:47 you.
+1:17:49 Thank
+1:18:17 you.
+1:18:19 Thank
+1:18:47 you.
+1:18:49 Thank
+1:19:18 you.
+1:19:19 Thank
+1:19:47 you.
+1:19:49 Thank
+1:20:17 you.
+1:20:19 Thank
+1:20:47 you.
+1:20:49 Thank
+1:21:17 you.
+1:21:19 Thank
+1:21:47 you.
+1:21:49 Thank
+1:22:17 you.
+1:22:19 Thank
+1:22:47 you.
+1:22:49 Thank
+1:23:17 you.
+1:23:19 Thank
+1:23:47 you.
+1:23:49 Thank
+1:24:17 you.
+1:24:19 Thank
+1:24:47 you.
+1:24:49 Thank
+1:24:59 you.
