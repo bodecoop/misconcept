@@ -1,7 +1,7 @@
 # Copy your actual OCI config file contents here
 [DEFAULT]
-user=YOUR_USER_OCID
-fingerprint=YOUR_FINGERPRINT
-tenancy=YOUR_TENANCY_OCID
-region=YOUR_REGION
+user=cid1.user.oc1..aaaaaaaadcfg3frtw7esp7setqz6eqe5azm44mic57pli52ravt4oz6sri3a
+fingerprint=ac:dc:69:be:68:4a:ec:e2:81:69:d1:73:03:f3:2f:fe
+tenancy=ocid1.tenancy.oc1..aaaaaaaawu6hkvowbuskgisv3ohg4d4qzr56zditstxhadzf7rexeeuaolba
+region=us-chicago-1
 key_file=/opt/render/.oci/oci_api_key.pem
