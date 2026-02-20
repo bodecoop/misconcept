@@ -57,14 +57,22 @@ Once running, visit `http://localhost:8000/docs` for interactive API documentati
 
 ## API Endpoints
 
+
 ### Authentication
-- `POST /auth/register` - Register a new user
-- `POST /auth/login` - Login and get JWT token
+- `POST /auth/register` — Register a new user
+- `POST /auth/login` — Login and get JWT token
+
+### Classes (require authentication)
+- `POST /classes/` — Create a new class
+- `GET /classes/` — Get all classes
+- `GET /classes/{class_id}` — Get a specific class by ID
+- `DELETE /classes/{class_id}` — Delete a class and all its dependent lectures, files, and labels
 
 ### Lectures (require authentication)
-- `POST /lectures/upload` - Upload lecture files and metadata
-- `GET /lectures` - Get all user's lectures
-- `GET /lectures/{id}` - Get specific lecture by ID
+- `POST /lectures/upload` — Upload lecture files and metadata
+- `GET /lectures/` — Get all lectures
+- `GET /lectures/{lecture_id}` — Get specific lecture by ID
+- `DELETE /lectures/{lecture_id}` — Delete a lecture
 
 ## Database Schema
 

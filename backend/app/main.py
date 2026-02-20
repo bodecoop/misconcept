@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .routers import lectures_router, classes_router
+from .routers import quizzes as quizzes_router
 
 app = FastAPI(title="Lecture Management System", version="1.0.0")
 
@@ -16,6 +17,7 @@ app.add_middleware(
 # Include routers
 app.include_router(classes_router, prefix="/classes", tags=["classes"])
 app.include_router(lectures_router, prefix="/lectures", tags=["lectures"])
+app.include_router(quizzes_router.router, prefix="/quizzes", tags=["quizzes"])
 
 @app.get("/")
 def read_root():

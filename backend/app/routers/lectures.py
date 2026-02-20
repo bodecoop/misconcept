@@ -13,6 +13,22 @@ router = APIRouter()
 # Default user ID for proof of concept
 DEFAULT_USER_ID = 1
 
+# Get lectures for a specific class
+@router.get("/by_class/{class_id}", response_model=List[LectureSchema])
+def get_lectures_by_class(class_id: int):
+    try:
+        with get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT id FROM lectures WHERE class_id = :class_id ORDER BY created_at DESC", {"class_id": class_id})
+            lecture_ids = [row[0] for row in cursor.fetchall()]
+            lectures = []
+            for lecture_id in lecture_ids:
+                lecture_data = get_lecture_data(cursor, lecture_id)
+                if lecture_data:
+                    lectures.append(lecture_data)
+            return lectures
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to retrieve lectures for class: {str(e)}")
 
 # Delete a single lecture and its files/labels
 @router.delete("/{lecture_id}", status_code=204)
