@@ -1,0 +1,7 @@
+# Copy your actual OCI config file contents here
+[DEFAULT]
+user=YOUR_USER_OCID
+fingerprint=YOUR_FINGERPRINT
+tenancy=YOUR_TENANCY_OCID
+region=YOUR_REGION
+key_file=/opt/render/.oci/oci_api_key.pem

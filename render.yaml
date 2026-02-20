@@ -1,6 +1,9 @@
 pythonVersion: 3.11
 build:
   commands:
+    - mkdir -p /opt/render/.oci
+    - cp backend/oci_config/config /opt/render/.oci/config
+    - cp backend/oci_config/oci_api_key.pem /opt/render/.oci/oci_api_key.pem
     - pip install -r requirements.txt
 start:
   command: uvicorn app.main:app --host 0.0.0.0 --port $PORT
