@@ -9,3 +9,7 @@ passlib[bcrypt]==1.7.4
 python-decouple==3.8
 aiofiles==23.2.1
 email-validator
+pypdf
+PyPDF2
+python-dotenv
+oci
