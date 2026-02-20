@@ -1,16 +1,45 @@
 import React, { useState } from 'react';
 
-const CreateClassForm: React.FC = () => {
+interface CreateClassFormProps {
+  onSuccess?: (newClass: { id: number; class_name: string; description?: string }) => void;
+}
+
+const CreateClassForm: React.FC<CreateClassFormProps> = ({ onSuccess }) => {
   const [className, setClassName] = useState('');
   const [description, setDescription] = useState('');
   const [message, setMessage] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: Replace with actual API call
-    setMessage('Class created successfully!');
-    setClassName('');
-    setDescription('');
+    setMessage('');
+    try {
+      const response = await fetch('http://localhost:8000/classes/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          class_name: className,
+          description: description,
+        }),
+      });
+      if (!response.ok) {
+        const data = await response.json();
+        throw new Error(data.detail || 'Failed to create class');
+      }
+      setMessage('Class created successfully!');
+      setClassName('');
+      setDescription('');
+      // Fetch the new class list and call onSuccess with the new class
+      const classesRes = await fetch('http://localhost:8000/classes/');
+      if (classesRes.ok) {
+        const classes = await classesRes.json();
+        const newClass = classes[classes.length - 1];
+        if (onSuccess) onSuccess(newClass);
+      }
+    } catch (err: any) {
+      setMessage(err.message || 'Error creating class');
+    }
   };
 
   return (

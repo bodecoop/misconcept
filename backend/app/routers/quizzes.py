@@ -3,6 +3,7 @@ from fastapi import APIRouter, HTTPException, UploadFile, File, Form
 from pydantic import BaseModel
 from datetime import datetime
 import os
+
 from ..database import get_connection
 from ..config import config
 try:
@@ -10,9 +11,104 @@ try:
 except ImportError:
     PdfReader = None
 
+# Import Oracle AI utility (absolute import for FastAPI)
+from app.utils.oracle_ai import run_class_analysis
+
 
 router = APIRouter()
 
+
+# Class Analytics Route
+@router.post("/class_analytics/{class_id}")
+def run_class_analytics(class_id: int):
+    from ..database import get_connection
+    # Aggregate lecture text
+    with get_connection() as conn:
+        cursor = conn.cursor()
+        cursor.execute("SELECT pdf_text FROM lecture_files lf JOIN lectures l ON lf.lecture_id = l.id WHERE l.class_id = :class_id", {"class_id": class_id})
+        lecture_texts = [row[0] for row in cursor.fetchall() if row[0]]
+        cursor.execute("SELECT quiz_content, quiz_results FROM quizzes WHERE class_id = :class_id", {"class_id": class_id})
+        quiz_rows = cursor.fetchall()
+        if not quiz_rows:
+            raise HTTPException(status_code=400, detail="Cannot run analysis: No quizzes found for this class.")
+        quiz_contents = [row[0] for row in quiz_rows if row[0]]
+        quiz_results = [row[1] for row in quiz_rows if row[1]]
+
+    lecture_text = "\n".join(lecture_texts)
+    quiz_content = "\n".join(quiz_contents)
+    quiz_results_text = "\n".join(quiz_results)
+    prompt = (
+        "You are an AI teaching assistant analyzing a university course.\n\n"
+
+        "Below are lecture transcripts and slide content:\n"
+        f"{lecture_text}\n\n"
+
+        "Below are quiz questions:\n"
+        f"{quiz_content}\n\n"
+
+        "Below are quiz performance results:\n"
+        f"{quiz_results_text}\n\n"
+
+        "Your task:\n"
+        "1. Identify the concepts students are struggling with most based on quiz performance.\n"
+        "2. Cross-reference those weak concepts with the lecture transcripts and slides.\n"
+        "3. Determine where (which lecture topic, section, or example) each concept was originally covered.\n"
+        "4. Infer why students may have misunderstood it (e.g., insufficient examples, rushed explanation, abstract treatment, lack of practice alignment).\n"
+        "5. Suggest specific ways the professor could revisit or improve coverage of each concept.\n\n"
+
+        "Output Requirements:\n"
+        "- Only provide the TOP 3 weakest concepts.\n"
+        "- For each concept, provide:\n"
+        "   - Concept Name\n"
+        "   - Estimated Mastery Score (0-100)\n"
+        "   - Where It Was Covered (cite lecture title or topic if possible)\n"
+        "   - Why Students Struggled\n"
+        "   - How to Revisit / Improve It\n\n"
+
+        "Be concise but specific. Ground your reasoning in the lecture and quiz content provided. List sections titles exaclty as provided."
+    )
+    import json
+    try:
+        analysis = run_class_analysis(prompt)
+        print("Got promt")
+        # Delete any existing analysis for this class, then insert new
+        with get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(
+                "DELETE FROM class_analysis WHERE class_id = :class_id",
+                {"class_id": class_id}
+            )
+            cursor.execute(
+                """
+                INSERT INTO class_analysis (class_id, analysis_text)
+                VALUES (:class_id, :analysis_text)
+                """,
+                {"class_id": class_id, "analysis_text": json.dumps(analysis)}
+            )
+            conn.commit()
+        return {"analysis": analysis}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to run class analysis: {str(e)}")
+
+# Get latest class analysis
+@router.get("/class_analytics/{class_id}")
+def get_class_analytics(class_id: int):
+    from ..database import get_connection
+    import json
+    with get_connection() as conn:
+        cursor = conn.cursor()
+        cursor.execute(
+            "SELECT analysis_text, created_at FROM class_analysis WHERE class_id = :class_id ORDER BY created_at DESC FETCH FIRST 1 ROW ONLY",
+            {"class_id": class_id}
+        )
+        row = cursor.fetchone()
+        if not row:
+            raise HTTPException(status_code=404, detail="No analysis found for this class.")
+        try:
+            analysis_obj = json.loads(row[0])
+        except Exception:
+            analysis_obj = row[0]
+        return {"analysis": analysis_obj, "created_at": row[1]}
 
 # Get all quizzes for a specific class
 @router.get("/by_class/{class_id}")
